@@ -1,5 +1,5 @@
 steps:
-  - name: 'run shell script' 
+  - name: 'run shell' 
     entrypoint: '/bin/bash'
     args: ['./FindDeltaChanges.sh']
     # Logging
