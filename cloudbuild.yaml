@@ -1,5 +1,5 @@
 steps:
-  - name: 'demo' 
+  - name: 'ubantu' 
     
     args: ['chmod', '+x','./FindDeltaChanges.sh']
     # Logging
