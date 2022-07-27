@@ -1,6 +1,6 @@
 steps:
-  - name: 'run shell' 
-    entrypoint: '/bin/bash'
+  - name: 'bash' 
+    
     args: ['./FindDeltaChanges.sh']
     # Logging
 options:
