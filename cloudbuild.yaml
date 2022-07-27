@@ -1,7 +1,7 @@
 steps:
   - name: 'bash' 
     
-    args: ['./FindDeltaChanges.sh']
+    args: ['chmod', '+x','./FindDeltaChanges.sh']
     # Logging
 options:
     logging: CLOUD_LOGGING_ONLY
