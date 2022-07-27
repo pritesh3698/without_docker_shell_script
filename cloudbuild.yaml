@@ -2,3 +2,7 @@ steps:
   - name: 'run shell script' 
     entrypoint: '/bin/bash'
     args: ['./FindDeltaChanges.sh']
+    # Logging
+options:
+    logging: CLOUD_LOGGING_ONLY
+    #completed
